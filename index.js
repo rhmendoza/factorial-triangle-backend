@@ -1,6 +1,6 @@
 const express = require('express');
-const { factorial }= require('./factorial');
-const { area }= require('./triangle');
+const { factorial } = require('./factorial');
+const { area } = require('./triangle');
 const app = express();
 
 app.use(express.urlencoded());
